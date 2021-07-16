@@ -59,7 +59,7 @@
     "colors": true
   },
   "dependencies": {
-    "astronomia": "^4.0.0",
+    "astronomia": "https://github.com/pixpayDev/astronomia.git",
     "caldate": "^2.0.1",
     "date-bengali-revised": "^2.0.1",
     "date-chinese": "^2.1.0",
