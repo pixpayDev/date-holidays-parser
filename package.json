@@ -48,6 +48,8 @@
     "doc": "jsdox -o docs src/Holidays.js",
     "lint": "eslint \"**/*.js\" \"**/*.cjs\"",
     "prepublishOnly": "npm run all",
+    "prepublish": "npm run all",
+    "prepare": "npm run all",
     "test": "npm-run-all test:*",
     "test:ci": "mocha",
     "test:ts": "dtslint types",
