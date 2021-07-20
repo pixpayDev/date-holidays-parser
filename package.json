@@ -39,7 +39,7 @@
   },
   "scripts": {
     "all": "npm-run-all clean lint build test",
-    "build": "rollup -c 'rollup.config.mjs -w' && cp scripts/rollup-fix/* lib",
+    "build": "rollup -c && cp scripts/rollup-fix/* lib",
     "ci": "npm-run-all build test:*",
     "clean": "rimraf lib es coverage .nyc_output",
     "clean:all": "npm-run-all clean clean:node_modules",
